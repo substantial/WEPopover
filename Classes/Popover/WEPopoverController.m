@@ -157,7 +157,7 @@
 									   UIViewAutoresizingFlexibleTopMargin |
 									   UIViewAutoresizingFlexibleHeight |
 									   UIViewAutoresizingFlexibleBottomMargin);
-	backgroundView.backgroundColor = [UIColor clearColor];
+	backgroundView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:.45];
 	backgroundView.delegate = self;
 	
 	[keyView addSubview:backgroundView];
